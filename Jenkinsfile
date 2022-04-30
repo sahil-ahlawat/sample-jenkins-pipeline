@@ -9,5 +9,5 @@ TEST_KEY_VALUE = [
     "Key2": "value2",
     "Key3": "value3",
   ]
-    BRANCH_NAME = "${BRANCH_NAME}";
+    BRANCH_NAME = "${env.BRANCH_NAME}";
 }
